@@ -1,0 +1,32 @@
+{
+  "name": "mpesaupdate",
+  "version": "1.0.0",
+  "description": "Roavida Mpesa Update",
+  "main": "script.js",
+  "scripts": {
+    
+    "start": "nodemon script.js"
+  },
+  "keywords": [
+    "m-pesa",
+    "Daraja",
+    "Roavida",
+    "m-Pesa",
+    "api"
+  ],
+  "author": "Riconets Ventures Limited",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "firebase": "^9.14.0",
+    "mongoose": "^6.6.1",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "unirest": "^0.6.0"
+  }
+}
